@@ -1,0 +1,38 @@
+<h1>Project Description: </h1>
+
+
+The architecture diagram illustrates a multi-tier web application deployed on AWS. It consists of two VPCs (Primary and Secondary) for redundancy and high availability.The diagram depicts a high-availability web application architecture on AWS in the Singapore region. It utilizes multiple Availability Zones (AZs) for redundancy and VPC Peering for communication between different VPCs.
+
+
+
+<h2> Key Components: </h2>
+
+VPC Peering: Connects two VPCs (PRIVATE-SINGAPORE-1C and PUBLIC-SINGAPORE-1A) for communication between resources in different VPCs.
+
+Public Subnets: Located in PUBLIC-SINGAPORE-1A and PUBLIC-SINGAPORE-1B, these subnets are accessible from the internet.
+
+Private Subnets: Found in PRIVATE-SINGAPORE-1C, these subnets are isolated from the internet.
+
+NAT Gateway: Enables instances in private subnets to access the internet for outbound traffic.
+
+Load Balancers: Distributes incoming traffic across multiple EC2 instances.
+
+EC2 Instances: Compute resources running the web application.
+
+Database Server: Stores the application's data.
+
+Security Groups: Control inbound and outbound traffic for EC2 instances.
+
+Route Tables: Determine how traffic is routed within the VPC.
+
+Bastion Host: A jump server for secure SSH access to instances in the private subnet.
+
+VPC Flow Logs: Captures information about IP traffic going to and from network interfaces.
+
+IAM Roles: Manage access permissions for AWS resources.
+
+EFS: Provides shared file storage accessible to multiple instances.
+
+
+
+
