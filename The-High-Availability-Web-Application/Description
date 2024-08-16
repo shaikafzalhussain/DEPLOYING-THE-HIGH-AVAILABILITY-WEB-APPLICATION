@@ -1,11 +1,11 @@
-<h1>Project Description: </h1>
+-------------------------------- Project Description:  -------------------------------- 
 
 
 The architecture diagram illustrates a multi-tier web application deployed on AWS. It consists of two VPCs (Primary and Secondary) for redundancy and high availability.The diagram depicts a high-availability web application architecture on AWS in the Singapore region. It utilizes multiple Availability Zones (AZs) for redundancy and VPC Peering for communication between different VPCs.
 
 
 
-<h2> Key Components: </h2>
+ Key Components: 
 
 VPC Peering: Connects two VPCs (PRIVATE-SINGAPORE-1C and PUBLIC-SINGAPORE-1A) for communication between resources in different VPCs.
 
