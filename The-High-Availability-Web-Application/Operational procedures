@@ -1,5 +1,6 @@
 
 ********************  Log in to the AWS Management Console: ******************** 
+SEARCH VPC --> SELECT VPC 
 1. Create VPCs:
 
 Create two separate VPCs in the Singapore region: SINGAPORE-1 and SINGAPORE-2.
